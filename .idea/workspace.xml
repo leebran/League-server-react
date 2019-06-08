@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f2bf646-4608-4cc9-9f89-a18c314589ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CourseBarItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeagueName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheWidgetList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WidgetListComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WidgetListItemComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/HeadingWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/HeadingWidgetComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/ImageWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/LinkWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/ListWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/ParagraphWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Whiteboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/WidgetListAssignment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/WidgetListContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/widgetReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/LeagueNameService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/WidgetService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="8f2bf646-4608-4cc9-9f89-a18c314589ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UserPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
@@ -91,6 +67,15 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -129,18 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="12" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Dropdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -253,6 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
@@ -297,12 +271,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560006326314</updated>
-      <workItem from="1560006327897" duration="11974000" />
+      <workItem from="1560006327897" duration="12216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11974000" />
+    <option name="totallyTimeSpent" value="12216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="58" width="1080" height="689" extended-state="0" />
@@ -512,6 +486,13 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
