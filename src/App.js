@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import WhiteBoard from './containers/Whiteboard'
 import CourseBarItem from './components/CourseBarItem'
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 //import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 import UserPage from './components/UserPage'
