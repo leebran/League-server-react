@@ -9,10 +9,14 @@ export default class LeagueNameService {
         }
         return this.myInstance;
     }
-
-    findAllLeagueName = () =>
-        fetch("https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/im%20getting%20old?api_key=RGAPI-94c96afc-4455-4076-ba34-49266f1867aa")
+    findLeagueName = (summonerName) =>
+        fetch("http://localhost:8080/?summonerName=" + summonerName)
             .then(response => response.json())
-
+    findUserChampions = (id) =>
+        fetch("http://localhost:8080/?summonerChamp=" + id)
+            .then(response => response.json())
+    findUserCurGame= (id) =>
+        fetch("http://localhost:8080/?summonerCurGame=" + id)
+            .then(response => response.json())
 }
 
