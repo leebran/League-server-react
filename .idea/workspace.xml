@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2bf646-4608-4cc9-9f89-a18c314589ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveGameStat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StatTracker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CourseBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseBarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeagueName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheWidgetList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WidgetListComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WidgetListItemComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Whiteboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Whiteboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/LeagueNameService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/LeagueNameService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ActiveGameStat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="222">
               <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -43,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/SearchPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="21" column="113" selection-start-line="21" selection-start-column="113" selection-end-line="21" selection-end-column="113" />
+            <state relative-caret-position="150">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -69,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Whiteboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="186">
               <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -297,16 +284,15 @@
       <workItem from="1560379694814" duration="7339000" />
       <workItem from="1560539373477" duration="5878000" />
       <workItem from="1560724428747" duration="223000" />
-      <workItem from="1560793785789" duration="6287000" />
+      <workItem from="1560793785789" duration="6709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39197000" />
+    <option name="totallyTimeSpent" value="39619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1080" height="689" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2938343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -476,16 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Whiteboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/Server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
@@ -510,9 +486,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/ImageWidget.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Whiteboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ActiveGameStat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="222">
           <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -530,13 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/ImageWidget.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SearchPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="113" selection-start-line="21" selection-start-column="113" selection-end-line="21" selection-end-column="113" />
+        <state relative-caret-position="150">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
