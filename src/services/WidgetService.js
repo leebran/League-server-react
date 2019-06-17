@@ -12,7 +12,7 @@ export default class WidgetService {
     }
 
     findAllWidgets = () =>
-        fetch("http://localhost:8080/api/widgets")
+        fetch("http://league-server-react.herokuapp.com/api/widgets")
             .then(response => response.json())
 
     findWidgetByUser = (userName, widgets) => {
@@ -21,7 +21,7 @@ export default class WidgetService {
 
 
     deleteWidget = wid =>
-        fetch(`http://localhost:8080/api/widgets/${wid}`, {
+        fetch(`http://league-server-react.herokuapp.com/api/widgets/${wid}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
