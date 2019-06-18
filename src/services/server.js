@@ -4,7 +4,7 @@ const url = require('url');
 
 const apiKey = 'RGAPI-fd22784b-d9b9-469b-b038-f90157e3e523';
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 const server = http.createServer((request, response) => {
     response.setHeader('Access-Control-Allow-Origin', '*');

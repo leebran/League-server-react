@@ -2,6 +2,7 @@
   "name": "2019-summer-webdevproject-reactserver-branden",
   "version": "0.1.0",
   "private": true,
+  "start": "node index.js",
   "homepage": "https://league-server-react.herokuapp.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",

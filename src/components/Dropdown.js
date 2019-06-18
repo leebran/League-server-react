@@ -24,13 +24,13 @@ export default class Dropdown extends React.Component {
                 </button>
                 <div className={menuClass} aria-labelledby="dropdownMenuButton">
                     <a className="dropdown-item" href={`/`}>
+                        Region: NA
+                    </a>
+                    <a className="dropdown-item" href="#nogo">
                         Region: EU
                     </a>
                     <a className="dropdown-item" href="#nogo">
-                        Region: Korea
-                    </a>
-                    <a className="dropdown-item" href="#nogo">
-                        Region: China
+                        Region: KR
                     </a>
                 </div>
             </div>
