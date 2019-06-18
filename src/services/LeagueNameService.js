@@ -10,13 +10,13 @@ export default class LeagueNameService {
         return this.myInstance;
     }
     findLeagueName = (summonerName) =>
-        fetch("http://league-server-react.herokuapp.com/?summonerName=" + summonerName)
+        fetch("http://localhost:8080/?summonerName=" + summonerName)
             .then(response => response.json())
     findUserChampions = (id) =>
-        fetch("http://league-server-react.herokuapp.com/?summonerChamp=" + id)
+        fetch("http://localhost:8080/?summonerChamp=" + id)
             .then(response => response.json())
     findUserCurGame= (id) =>
-        fetch("http://league-server-react.herokuapp.com/?summonerCurGame=" + id)
+        fetch("http://localhost:8080/?summonerCurGame=" + id)
             .then(response => response.json())
 }
 
