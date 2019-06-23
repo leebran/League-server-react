@@ -4,7 +4,7 @@ import SearchPage from "../components/SearchPage";
 import {Route} from "react-router-dom";
 import LeagueNameService from "../services/LeagueNameService";
 
-export default class Login extends React.Component {
+export default class Profile extends React.Component {
     constructor(props) {
         super(props)
         this.userId = props.match.params.userId;
@@ -27,9 +27,21 @@ export default class Login extends React.Component {
                 this.setState({gameState: gameState}))
     }
 
+    getAdmin = (admin) => {
+        if(admin) {
+            return "Admin"
+        } else {
+            return "User"
+        }
+    }
+
     render() {
         return(
             <div>
+                <h3>Welcome:</h3>
+                {
+                this.getAdmin(this.state.user.admin)
+                }
                 <img src={"http://opgg-static.akamaized.net/images/profile_icons/profileIcon" +
                 this.state.gameState .profileIconId + ".jpg"}></img>
                 <h3>Summoner Name</h3>
