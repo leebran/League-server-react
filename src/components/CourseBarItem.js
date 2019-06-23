@@ -1,6 +1,6 @@
 import React from 'react'
 import Dropdown from './Dropdown'
-import WhiteBoard from "../containers/Whiteboard";
+import PageContainer from "../containers/PageContainer";
 
 const CourseBarItem = ({titleChanged, searchText}) =>
     <nav className="navbar navbar-light bg-light">

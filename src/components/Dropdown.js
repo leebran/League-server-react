@@ -20,17 +20,17 @@ export default class Dropdown extends React.Component {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                 >
-                    Region: NA
+                    LeagueFinder
                 </button>
                 <div className={menuClass} aria-labelledby="dropdownMenuButton">
                     <a className="dropdown-item" href={`/`}>
-                        Region: NA
+                        Homepage
                     </a>
                     <a className="dropdown-item" href="#nogo">
-                        Region: EU
+                        Teams
                     </a>
                     <a className="dropdown-item" href="#nogo">
-                        Region: KR
+                        Friends
                     </a>
                 </div>
             </div>
