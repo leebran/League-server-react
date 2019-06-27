@@ -12,21 +12,14 @@ export default class Profile extends React.Component {
         this.DatabaseService = new DatabaseService();
         this.LeagueNameService = new LeagueNameService();
         this.state = {user: [],
-                        gameState: [],
-                    history: []}
+            gameState: [],
+            history: []}
     }
 
     componentDidMount() {
-        this.DatabaseService.findUserById(this.userId)
+        this.LeagueNameService.findLeagueName(this.userId)
             .then(user =>
-                this.setState({user: user}))
-            .then(this.getSummoner)
-    }
-
-    getSummoner = () => {
-        this.LeagueNameService.findLeagueName(this.state.user.leagueId)
-            .then(gameState =>
-                this.setState({gameState: gameState}))
+                this.setState({gameState: user}))
     }
     getAdmin = (admin) => {
         if(admin) {
@@ -41,7 +34,7 @@ export default class Profile extends React.Component {
             <div>
                 <h3>Welcome:</h3>
                 {
-                this.getAdmin(this.state.user.admin)
+                    this.getAdmin(this.state.user.admin)
                 }
                 <img src={"http://opgg-static.akamaized.net/images/profile_icons/profileIcon" +
                 this.state.gameState .profileIconId + ".jpg"}></img>

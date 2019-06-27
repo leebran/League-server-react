@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2bf646-4608-4cc9-9f89-a18c314589ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MatchDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MatchHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/prof.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MatchDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MatchDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/PageContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PageContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/LeagueNameService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/LeagueNameService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="64" column="83" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="83" />
+            <state relative-caret-position="160">
+              <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -62,10 +61,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/prof.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/PageContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+            <state relative-caret-position="220">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -106,25 +117,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MatchDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            <state relative-caret-position="191">
+              <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Register.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,8 +141,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>node</find>
-      <find>getsummonergame</find>
       <find>team1</find>
+      <find>getsummonergame</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,11 +183,12 @@
         <option value="$PROJECT_DIR$/src/containers/matchHistory.js" />
         <option value="$PROJECT_DIR$/src/components/CourseBarItem.js" />
         <option value="$PROJECT_DIR$/src/components/matchHistory.js" />
-        <option value="$PROJECT_DIR$/src/containers/Profile.js" />
         <option value="$PROJECT_DIR$/src/components/MatchHistory.js" />
         <option value="$PROJECT_DIR$/src/services/LeagueNameService.js" />
-        <option value="$PROJECT_DIR$/src/containers/PageContainer.js" />
+        <option value="$PROJECT_DIR$/src/containers/Profile.js" />
+        <option value="$PROJECT_DIR$/src/components/prof.js" />
         <option value="$PROJECT_DIR$/src/components/MatchDetails.js" />
+        <option value="$PROJECT_DIR$/src/containers/PageContainer.js" />
       </list>
     </option>
   </component>
@@ -344,12 +344,12 @@
       <workItem from="1561235176152" duration="16139000" />
       <workItem from="1561415211396" duration="534000" />
       <workItem from="1561603603147" duration="18000" />
-      <workItem from="1561605929923" duration="11134000" />
+      <workItem from="1561605929923" duration="11991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76243000" />
+    <option name="totallyTimeSpent" value="77100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="24" width="1080" height="689" extended-state="0" />
@@ -372,7 +372,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -644,10 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Profile.js">
+    <entry file="file://$PROJECT_DIR$/src/components/MatchHistory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="64" column="83" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="83" />
+        <state relative-caret-position="290">
+          <caret line="57" column="54" selection-end-line="69" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
@@ -661,10 +661,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MatchHistory.js">
+    <entry file="file://$PROJECT_DIR$/src/components/prof.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="57" column="54" selection-end-line="69" />
+        <state relative-caret-position="209">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MatchDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
@@ -673,20 +693,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/PageContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="220">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MatchDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

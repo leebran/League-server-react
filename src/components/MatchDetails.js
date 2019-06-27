@@ -62,7 +62,7 @@ export default class MatchHistory extends React.Component {
                     players.map(player =>
                     <div>
                         Player Name:
-                        <a href={`/Search/${player.player.summonerName}`}>{player.player.summonerName}</a>
+                        <a href={`/profiIe/${player.player.summonerName}`}>{player.player.summonerName}</a>
                     </div>
                     )
                 }

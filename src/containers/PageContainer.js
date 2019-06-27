@@ -10,6 +10,7 @@ import Loading from "./Loading";
 import Profile from "./Profile";
 import MatchHistory from "../components/MatchHistory";
 import MatchDetails from "../components/MatchDetails";
+import prof from "../components/prof";
 
 class PageContainer extends React.Component {
     constructor(props) {
@@ -68,6 +69,10 @@ class PageContainer extends React.Component {
                     exact={true}
                     path={"/Profile/:userId/:sumId/matches/:gameId"}
                     component={MatchDetails}/>
+                <Route
+                    exact={true}
+                    path={"/ProfiIe/:userId"}
+                    component={prof}/>
             </div>
             </Router>
         )
