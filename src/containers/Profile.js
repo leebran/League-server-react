@@ -3,6 +3,7 @@ import React from "react";
 import SearchPage from "../components/SearchPage";
 import {Route} from "react-router-dom";
 import LeagueNameService from "../services/LeagueNameService";
+import MatchHistory from "../components/MatchHistory";
 
 export default class Profile extends React.Component {
     constructor(props) {
@@ -11,7 +12,8 @@ export default class Profile extends React.Component {
         this.DatabaseService = new DatabaseService();
         this.LeagueNameService = new LeagueNameService();
         this.state = {user: [],
-                        gameState: []}
+                        gameState: [],
+                    history: []}
     }
 
     componentDidMount() {
@@ -26,7 +28,6 @@ export default class Profile extends React.Component {
             .then(gameState =>
                 this.setState({gameState: gameState}))
     }
-
     getAdmin = (admin) => {
         if(admin) {
             return "Admin"
@@ -58,7 +59,10 @@ export default class Profile extends React.Component {
                 }
                 <h3>Active Game:</h3>
                 <a href={`/ActiveGameStat/${this.state.gameState.id}`}>Check on Game</a>
-
+                <h3>hm</h3>
+                {
+                }
+                <a href={`/Profile/${this.userId}/${this.state.gameState.accountId}/matches`}>Check on History</a>
             </div>
         )
     }

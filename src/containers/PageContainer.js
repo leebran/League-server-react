@@ -8,6 +8,8 @@ import Register from "./Register";
 import Homepage from "./Homepage";
 import Loading from "./Loading";
 import Profile from "./Profile";
+import MatchHistory from "../components/MatchHistory";
+import MatchDetails from "../components/MatchDetails";
 
 class PageContainer extends React.Component {
     constructor(props) {
@@ -58,6 +60,14 @@ class PageContainer extends React.Component {
                     exact={true}
                     path={"/Profile/:userId"}
                     component={Profile}/>
+                <Route
+                exact={true}
+                path={"/Profile/:userId/:sumId/matches"}
+                component={MatchHistory}/>
+                <Route
+                    exact={true}
+                    path={"/Profile/:userId/:sumId/matches/:gameId"}
+                    component={MatchDetails}/>
             </div>
             </Router>
         )

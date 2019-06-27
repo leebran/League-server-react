@@ -18,5 +18,11 @@ export default class LeagueNameService {
     findUserCurGame= (id) =>
         fetch("https://webdevleagueserver.herokuapp.com//?summonerCurGame=" + id)
             .then(response => response.json())
+    findGames = (id) =>
+        fetch("https://webdevleagueserver.herokuapp.com/?sumGame=" + id)
+            .then(response => response.json())
+    findOneGame = (id) =>
+        fetch("https://webdevleagueserver.herokuapp.com/?oneGame=" + id)
+            .then(response => response.json())
 }
 
