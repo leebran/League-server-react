@@ -8,6 +8,11 @@
   pointer-events: none;
 }
 
+.CourseBarItem {
+  background-color: #61dafb;
+  color: #61dafb;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
