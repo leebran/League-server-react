@@ -24,6 +24,13 @@ export default class Homepage extends React.Component {
         return (
             <Router>
             <div>
+                <h3>
+                    Switch to new prototype template at:
+                    <a href="https://leagueproto.herokuapp.com/">
+                        click here!
+                    </a>
+                </h3>
+
                 <h1> Welcome, Summoner </h1>
                     <h3> Summoner of the Day: </h3>
                 <div>

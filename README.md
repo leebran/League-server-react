@@ -3,6 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You can visit a working prototype at:
 https://league-server-react.herokuapp.com
 
+As well as the template im switching over to at:
+https://leagueproto.herokuapp.com/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
